@@ -932,7 +932,8 @@
             rgba[3] = components[3];
             break;
         }
-            
+        
+        case kCGColorSpaceModelXYZ:
         case kCGColorSpaceModelCMYK:
         case kCGColorSpaceModelDeviceN:
         case kCGColorSpaceModelIndexed:
@@ -950,6 +951,7 @@
             rgba[3] = 1.0f;
             break;
         }
+            
     }
 }
 
